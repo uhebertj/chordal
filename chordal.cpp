@@ -405,7 +405,7 @@ lli f(int t, int x, int l, int k) {
 
 lli comp_f(int t, int x, int l, int k) {
 	// If size of clique is too large, no dice.
-	if(x + l > w + 1) return 0;
+	if(x + l > w) return 0;
 
 	// base case, t=0
 	if(t == 0) return 0;
